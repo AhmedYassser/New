@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS practice</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="text-white mx-auto my-5 w-50 text-center p-5">
+
+    <h1> quote of the day</h1>
+    <p>press the buttom below to recieve a random quote</p>
+    <button onclick="addquote();" class="btn btn-warning p-3 text-white">click here</button>
+    <button onclick="AddYourquote();" class="btn btn-warning p-3 text-white">Add quote</button>
+    <input type="text" class="form-control w-75 m-5 mx-auto" id="addQ">
+    <div class="fs-2 shadow mt-3" id="quotes">
+
+
+    </div>
+  </div>
+  <div id="quotes">
+
+
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
